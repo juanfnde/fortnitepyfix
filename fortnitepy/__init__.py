@@ -4,7 +4,7 @@
 """
 MIT License
 
-Copyright (c) 2019-2021 Terbau
+Copyright (c) 2019-2023 Terbau, Mathyslol and Pirxcy
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 """
 
-__version__ = '4.0.0a1'
+__version__ = '0.0.1'
 
 from .client import BasicClient, Client, run_multiple, start_multiple, close_multiple
 from .auth import (Auth, EmailAndPasswordAuth, ExchangeCodeAuth,
