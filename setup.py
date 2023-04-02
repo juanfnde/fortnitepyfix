@@ -32,7 +32,7 @@ setuptools.setup(
         "Issue tracker": "https://github.com/Terbau/fortnitepy/issues",
     },
     version=version,
-    author="Terbau",
+    author="Mathyslol",
     description="Library for interacting with fortnite services",
     long_description=long_description,
     license='MIT',
