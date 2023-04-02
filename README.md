@@ -1,4 +1,4 @@
- # fortnitepy (Fix By Mathy)
+ # fortnitepy (Fix)
 
 [![Supported py versions](https://img.shields.io/pypi/pyversions/fortnitepy.svg)](https://pypi.org/project/fortnitepy/)*Old Fortnitepy*
 [![Current pypi version](https://img.shields.io/pypi/v/fortnitepy.svg)](https://pypi.org/project/fortnitepy/) *Old Fortnitepy*
