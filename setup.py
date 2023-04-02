@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 version = ''
-with open('fortnitepy/__init__.py') as f:
+with open('fortnitepyfix/__init__.py') as f:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
 
 requirements = ['aiohttp>=3.3', 'aioxmpp>=0.10.4']
@@ -25,8 +25,8 @@ extras_require = {
 }
 
 setuptools.setup(
-    name="fortnitepy",
-    url="https://github.com/Terbau/fortnitepy",
+    name="fortnitepyfix",
+    url="https://github.com/juanfnde/fortnitepyfix/",
     project_urls={
         "Documentation": "https://fortnitepy.readthedocs.io/en/latest/",
         "Issue tracker": "https://github.com/Terbau/fortnitepy/issues",
@@ -39,7 +39,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     install_requires=requirements,
     extras_require=extras_require,
-    packages=['fortnitepy', 'fortnitepy.ext.commands'],
+    packages=['fortnitepyfix', 'fortnitepyfix.ext.commands'],
     python_requires='>=3.5.3',
     classifiers=[
         'License :: OSI Approved :: MIT License',
