@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 version = ''
-with open('fortnitepyfix/__init__.py') as f:
+with open('fortnitepy/__init__.py') as f:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read(), re.MULTILINE).group(1)
 
 requirements = ['aiohttp>=3.3', 'aioxmpp>=0.10.4']
