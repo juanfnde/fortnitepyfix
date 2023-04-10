@@ -25,7 +25,7 @@ extras_require = {
 }
 
 setuptools.setup(
-    name="fortnitepyfix",
+    name="fortnitepy",
     url="https://github.com/juanfnde/fortnitepyfix/",
     project_urls={
         "Documentation": "https://fortnitepy.readthedocs.io/en/latest/",
